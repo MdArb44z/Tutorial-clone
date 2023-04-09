@@ -1,0 +1,248 @@
+
+body
+{
+ margin:0;
+ width:100%;
+
+}
+
+.container{
+width:83%;
+margin: auto;
+
+}
+
+.header{
+position:relative;
+height:550px;
+}
+
+.image-container
+{
+position:relative;
+witdh:100%;
+height: 550px;
+}
+
+.image-container img
+{
+width:100%;
+height:100%;
+object-fit : cover;
+
+}
+
+.header-body-section{
+position : absolute;
+top:0;
+width:100%;
+color:white;
+}
+
+.nav{
+font-weight :550;
+
+}
+.container-nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logoContainer{
+display:flex;
+align-items:center;
+}
+.logoContainer p{
+padding :20px;
+}
+.nav ul{
+list-style:none;
+display:flex;
+}
+li{
+
+padding: 0px;
+margin-right:108px;
+font-size:18px;
+font-weight:200;
+}
+li a{
+
+color:white;
+text-decoration:none;
+}
+
+.zomato-logo{
+width:300px;
+}
+.container-header-body{
+
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+
+}
+.header-body-content{
+position:relative;
+top:75px;
+}
+
+.header-body-section-discover{
+font-size: 40px;
+margin:25px 0;
+}
+.search-container{
+background-color:white;
+width:100%;
+height:40px;
+max-width:800px;
+border-radius:10px;
+display:flex;
+align-items:center;
+padding:5px;
+}
+.location-map{
+color:rgb(230,139,139);
+font-size:21px;
+}
+.caret-up{
+color:#000;
+}
+
+.detectionLocation input{
+border:none;
+font-size:16px;
+width:190px;
+outline:none;
+}
+.search-item{
+color:#000;
+}
+
+.search-item{
+color:rgb(104,103,103);
+font-size:16px;
+}
+.line{
+color:#000;
+padding:10px;
+}
+.search-item input{
+max-width:100%;
+width:400px;
+font-size:16px;
+padding: 5 10px;
+border:none;
+outline:none;
+}
+
+/**section-1 feature***/
+
+.section-1{
+margin:35px;
+}
+
+.container-feature{
+display:flex;
+justify-content:space-between;
+
+}
+.features{
+overflow:hidden;
+border-radius:15px;
+border:0.1px solid rgb(231,231,231);
+}
+
+.feature-image{
+width:280;
+height:150px;
+overflow: hidden;
+}
+.feature-image img{
+width:100%;
+background-position:100px;
+}
+.features h3,
+.features p{
+padding-left:20px;
+}
+.features:hover{
+transition: transform 0.6s;
+transform: scale(1.06);
+cursor: pointer;
+}
+
+section{
+padding:40px 0;
+}
+
+
+/**section 2***/
+
+.section-2-left h1{
+font-size:35px;
+margin-bottom: 0;
+}
+.section-2-left p{
+ font-size: 18px;
+ margin-top:0;
+ letter-spacing:1px;
+ font-weight:200;
+
+}
+
+.section-2-top{
+display: flex;
+align-items:center;
+justify-content: space-between;
+}
+
+.section-2-right {
+align-self:flex-end;
+color:rgb(228,56,56);
+cursor: pointer;
+}
+
+.section-2-item{
+max-width:200px;
+border-radius:8px;
+border:0.1px solid rgb(231,231,231);
+overflow:hidden;
+position:relative;
+cursor: pointer;
+}
+
+.section-2-item img{
+max-width:200px;
+}
+
+
+.section-2-image-description{
+padding:0 10px;
+
+}
+
+
+.section-2-image-description p{
+margin:0;
+font-size:18px;
+
+}
+.section-2-image-description p:nth-child(2){
+font-size:16px;
+}
+
+.section-2-body{
+display:flex;
+justify-content: space-between;
+
+}
+
+
+
+
+
+
+
